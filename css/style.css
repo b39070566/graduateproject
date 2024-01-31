@@ -9526,7 +9526,11 @@ button.bg-dark:focus {
 }
 
 .text-white {
-  color: #2B3036 !important;
+  color: #fff !important;
+}
+
+.text-white2 {
+  color: #000b0f !important;
 }
 
 .text-primary {

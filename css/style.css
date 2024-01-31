@@ -600,7 +600,8 @@ pre code {
 .container-sm,
 .container-md,
 .container-lg,
-.container-xl {
+.container-xl,
+.container-index {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -628,6 +629,12 @@ pre code {
 
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1450px) {
+  .container-index {
     max-width: 1140px;
   }
 }
